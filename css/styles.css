@@ -1,4 +1,23 @@
 /* Los estilos se aplican a todo el documento */
 body {
-    
+    background: linear-gradient(135deg, rgba(174, 0, 255, 0.2), rgba(255, 0, 0, 0.1)), 
+    url('../assets/images/fondo1.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+.about {
+    background: linear-gradient(0deg, rgba(0, 17, 252, 0.5), rgba(255, 0, 0, 0.9));
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+.social-icon {
+    width: 20px;
 }
