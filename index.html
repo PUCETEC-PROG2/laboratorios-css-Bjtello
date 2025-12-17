@@ -4,12 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Fuentes de Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-     <!--Mis estilos -->   
+    <!--Mis estilos -->
     <link rel="stylesheet" href="/css/styles.css">
     <title>Curriculum Vitae de Bryan Tello</title>
 </head>
@@ -18,13 +13,16 @@
     <header>
         <h1>Bryan Tello Faz</h1>
         <p>Militar y Estudiante de Desarrollo de Software</p>
+        </div>
     </header>
 
     <main>
         <section id="sobre-mi">
-            <div class="about">
+            <div class="box">
                 <h2>Sobre Mí</h2>
-                <img src="assets/images/Foto_Bryan_Tello.jpeg" alt="Foto de perfil" width="200px">
+
+                <img src="assets/images/Foto_Bryan_Tello.jpeg" alt="Foto de perfil" class="profile-picture">
+
                 <p>Estudiante de Desarrollo de Software con experiencia militar. Apasionado por la tecnología y el
                     aprendizaje continuo.</p>
 
@@ -33,75 +31,82 @@
         </section>
 
         <section id="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Mantenimiento Hardware</li>
-                <li>Resolución de Problemas</li>
-                <li>Trabajo en Equipo</li>
-                <li>Comunicación</li>
-                <li>Deportes Ecuavoley y Futbol</li>
-            </ul>
+            <div class="box">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Mantenimiento Hardware</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Trabajo en Equipo</li>
+                    <li>Comunicación</li>
+                    <li>Deportes Ecuavoley y Futbol</li>
+                </ul>
+            </div>
         </section>
 
         <section id="estudios">
-            <h2>Estudios</h2>
-            <article>
-                <h3>Militar </h3>
-                <p><strong>Institución:</strong> Fuerza Aérea Ecuatoriana</p>
-                <p><strong>Período:</strong> 2017-2019</p>
-                <p>Formacion Militar, Orientación Militar </p>
-            </article>
-            <article>
-                <h3>Estudiante en Desarrollo de Software</h3>
-                <p><strong>Institución:</strong> PUCETEC</p>
-                <p><strong>Período:</strong> 2025- 2027</p>
-                <p>Aprendiendo a crear paginas en Visual Code, manejo de Ubuntu, etc</p>
-            </article>
+            <div class="box">
+                <h2>Estudios</h2>
+                <article>
+                    <h3>Militar </h3>
+                    <p><strong>Institución:</strong> Fuerza Aérea Ecuatoriana</p>
+                    <p><strong>Período:</strong> 2017-2019</p>
+                    <p>Formacion Militar, Orientación Militar </p>
+                </article>
+                <article>
+                    <h3>Estudiante en Desarrollo de Software</h3>
+                    <p><strong>Institución:</strong> PUCETEC</p>
+                    <p><strong>Período:</strong> 2025- 2027</p>
+                    <p>Aprendiendo a crear paginas en Visual Code, manejo de Ubuntu, etc</p>
+                </article>
+            </div>
         </section>
 
         <section id="hobbies">
-            <h2>Hobbies</h2>
-            <ul>
-                <li>Cocinar</li>
-                <li>Jugar videojuegos</li>
-                <li>Jugar Ecuavoley</li>
-                <li>Jugar Futbol</li>
-            </ul>
+            <div class="box">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Cocinar</li>
+                    <li>Jugar videojuegos</li>
+                    <li>Jugar Ecuavoley</li>
+                    <li>Jugar Futbol</li>
+                </ul>
+            </div>
         </section>
 
         <section id="redes-sociales">
-            <h2>Redes Sociales</h2>
-            <ul>
-                <li>
-                    <a href="assets/icons/LinkedIn.png">
-                        <img src="assets/icons/LinkedIn.png" alt="LinkedIn" class="social-icon">
-                        LinkedIn
-                    </a>
-                </li>
-                <li>
-                    <a href="assets/icons/GitHub.png">
-                        <img src="assets/icons/GitHub.png" alt="GitHub" class="social-icon">
-                        GitHub
-                    </a>
-                </li>
-                <li>
-                    <a href="assets/icons/twitter.webp">
-                        <img src="assets/icons/twitter.webp" alt="Twitter" class="social-icon">
-                        Twitter
-                    </a>
-                </li>
-                <li>
-                    <a href="assets/icons/Instagram.png">
-                        <img src="assets/icons/Instagram.png" alt="Instagram" class="social-icon">
-                        Instagram
-                    </a>
-                </li>
-            </ul>
+            <div class="box">
+                <h2>Redes Sociales</h2>
+
+                <ul>
+                    <div class="social-network">
+                        <li>
+                            <a href="assets/icons/LinkedIn.png">
+                                <img src="assets/icons/LinkedIn.png" alt="LinkedIn" class="social-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Bjtello" target="_blank">
+                                <img src="assets/icons/GitHub.png" alt="GitHub" class="social-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="assets/icons/twitter.webp">
+                                <img src="assets/icons/twitter.webp" alt="Twitter" class="social-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="assets/icons/Instagram.png">
+                                <img src="assets/icons/Instagram.png" alt="Instagram" class="social-icon">
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; © 2025 Bryan Tello. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Bryan Tello. Todos los derechos reservados.</p>
     </footer>
 </body>
 
